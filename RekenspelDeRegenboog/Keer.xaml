@@ -1,0 +1,21 @@
+﻿<Window x:Class="RekenspelDeRegenboog.Keer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RekenspelDeRegenboog"
+        mc:Ignorable="d"
+        Title="Keer" Height="450" Width="789">
+    <Grid>
+        <Image x:Name="imgMenu" HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="782" Source="https://i.ytimg.com/vi/bWrxe_jxjR8/maxresdefault.jpg" Stretch="Fill"/>
+        <Label x:Name="lbKeer" Content="Label" HorizontalAlignment="Left" Margin="305,188,0,0" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="18"/>
+        <TextBox x:Name="txtKeer" HorizontalAlignment="Left" Height="32" Margin="395,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" KeyDown="txtKeer_KeyDown" FontFamily="MV Boli" FontSize="18" BorderBrush="#FF2444A4" Background="#FF4C4E61"/>
+        <Button x:Name="btnKeerTerug" Content="Terug naar hoofdmenu" HorizontalAlignment="Left" Margin="290,245,0,0" VerticalAlignment="Top" Width="255" Height="60" Click="btnKeerTerug_Click" Background="#FF2B2BC1" FontFamily="MV Boli" FontSize="18"/>
+        <Image HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="195" Source="http://www.regenboog-enschede.nl/Portals/1561/logo_regenboog.png?ver=2017-11-08-171058-113" Margin="10,10,0,0"/>
+        <Label x:Name="lbGoed" Content="0" HorizontalAlignment="Left" Margin="641,30,0,0" VerticalAlignment="Top" Height="40" Width="80" FontSize="20" Background="#FF46FF00"/>
+        <Label x:Name="lbScore1" Content="Goed:" HorizontalAlignment="Left" Margin="580,30,0,0" VerticalAlignment="Top" Height="40" Width="61" FontSize="20" Background="#FF51FF00"/>
+        <Label x:Name="lbScore2" Content="Fout:" HorizontalAlignment="Left" Margin="580,70,0,0" VerticalAlignment="Top" Height="40" Width="61" FontSize="20" Background="Red"/>
+        <Label x:Name="lbFout" Content="0" HorizontalAlignment="Left" Margin="641,70,0,0" VerticalAlignment="Top" Height="40" Width="80" FontSize="20" Background="Red"/>
+
+    </Grid>
+</Window>
